@@ -89,3 +89,13 @@
     background-color: lightgoldenrodyellow;
     flex: auto;
 }
+
+@media only screen and (max-width: 768px) {
+    .menu {
+        display: block;
+    }
+    
+    .cos {
+        display: block;
+    }
+}
