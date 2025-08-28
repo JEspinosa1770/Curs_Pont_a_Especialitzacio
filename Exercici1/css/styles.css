@@ -1,0 +1,93 @@
+* {
+    max-width: 1200px;
+    padding: 5px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.contenidor-principal {
+    background-color: lightskyblue;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.marge-int {
+    padding: 0 20px;
+}
+
+.header {
+    /* padding: 20px; */
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: black;
+}
+
+.menu {
+    background-color: darkslategrey;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.banner {
+    background-color: orange;
+}
+
+.banner h1 {
+    margin: 20px 0 20px 0;
+    background-color: yellow;
+}
+
+.logo {
+    background-color: tomato;
+    flex: 1 1 auto;
+}
+.nav {
+    background-color: tomato;
+    flex: 5 1 auto;
+}
+
+.social {
+    background-color: tomato;
+    flex: 1 1 auto;
+}
+
+.cos {
+    display: flex;
+    background-color: black;
+}
+
+.articles {
+    background-color: #5B80A4;
+    display: flex;
+    flex: 5 1 auto;
+    flex-flow: row wrap;
+}
+
+.article {
+    background-color: darkcyan;
+    flex: 2 1 45%;
+}
+
+.navegacion {
+    background-color: cadetblue;
+    flex: 1 1 100%;
+}
+
+.aside {
+    background-color: red;
+    flex: 1 1 auto;
+}
+
+.publicidad {
+    background-color: yellow;
+}
+
+.footer {
+    background-color: black;
+    display: flex;
+}
+
+.pie {
+    background-color: lightgoldenrodyellow;
+    flex: auto;
+}
