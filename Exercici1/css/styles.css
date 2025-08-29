@@ -39,6 +39,11 @@
     background-color: tomato;
     flex: 1 1 auto;
 }
+
+.logo:hover {
+    animation: boton-saltarin 1s;
+}
+
 .nav {
     background-color: tomato;
     flex: 5 1 auto;
@@ -119,5 +124,18 @@
 
     .articles {
         display: block;
+    }
+}
+
+@keyframes boton-saltarin {
+    0% {
+        transform: scale(1);
+        transition: all 0.5s;
+        background-color:magenta;
+    }
+    100%{
+        transform: scale(1.2);
+        transition: all 0.5s;
+        background-color:magenta;        
     }
 }
