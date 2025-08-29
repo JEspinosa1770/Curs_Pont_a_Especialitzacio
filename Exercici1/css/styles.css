@@ -91,6 +91,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .contenidor-principal {
+        background-color: brown;
+    }
+
     .menu {
         display: block;
     }
@@ -101,6 +105,10 @@
 }
 
 @media only screen and (max-width: 576px) {
+    .contenidor-principal {
+        background-color: grey;
+    }
+    
     .menu {
         display: block;
     }
